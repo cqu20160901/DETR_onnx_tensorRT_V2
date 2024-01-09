@@ -4,6 +4,8 @@ DETR tensor去除推理过程无用辅助头+fp16部署再次加速+解决转ten
 
 **由于模型较大无法直接上传，onnx和tensorrt [模型文件下载链接](https://github.com/cqu20160901/DETR_onnx_tensorRT_V2/releases/tag/v1.0.0)**
 
+感兴趣的可以参考[DETR tensorRT C++部署](https://github.com/cqu20160901/DETR_tensorRT_Cplusplus)
+
 # 1、转tensorrt 输出全为 0 老问题回顾
 
 &emsp;&emsp;在用 TensorRT 部署 DETR 检测模型时遇到：转tensorrt 输出全为 0 的问题。多次想放弃这个模型部署，花了很多时间查阅，最终解决方法用了两步：
