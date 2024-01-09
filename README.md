@@ -4,7 +4,7 @@ DETR tensor去除推理过程无用辅助头+fp16部署再次加速+解决转ten
 
 **由于模型较大无法直接上传，onnx和tensorrt [模型文件下载链接](https://github.com/cqu20160901/DETR_onnx_tensorRT_V2/releases/tag/v1.0.0)**
 
-感兴趣的可以参考[DETR tensorRT C++部署](https://github.com/cqu20160901/DETR_tensorRT_Cplusplus)
+[DETR tensorRT C++部署](https://github.com/cqu20160901/DETR_tensorRT_Cplusplus)
 
 # 1、转tensorrt 输出全为 0 老问题回顾
 
